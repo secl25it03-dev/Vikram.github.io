@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Vikram S - Portfolio</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;family=Noto+Sans:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#137fec",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101922",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"],
+                        "body": ["Noto Sans", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-[#111418] dark:text-white font-display overflow-x-hidden">
+<header class="sticky top-0 z-50 bg-white/90 dark:bg-[#111418]/90 backdrop-blur-md border-b border-solid border-[#f0f2f4] dark:border-gray-800">
+<div class="layout-container flex justify-center w-full">
+<div class="px-5 md:px-10 lg:px-40 flex flex-1 justify-center">
+<div class="layout-content-container flex max-w-[960px] flex-1 items-center justify-between py-4">
+<div class="flex items-center gap-4 text-[#111418] dark:text-white">
+<div class="size-8 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-3xl">terminal</span>
+</div>
+<h2 class="text-xl font-bold leading-tight tracking-[-0.015em]">Vikram S</h2>
+</div>
+<nav class="hidden md:flex flex-1 justify-end gap-8">
+<div class="flex items-center gap-6 lg:gap-9">
+<a class="text-[#111418] dark:text-gray-200 text-sm font-medium hover:text-primary transition-colors" href="#home">Home</a>
+<a class="text-[#111418] dark:text-gray-200 text-sm font-medium hover:text-primary transition-colors" href="#about">About</a>
+<a class="text-[#111418] dark:text-gray-200 text-sm font-medium hover:text-primary transition-colors" href="#skills">Skills</a>
+<a class="text-[#111418] dark:text-gray-200 text-sm font-medium hover:text-primary transition-colors" href="#experience">Experience</a>
+<a class="text-[#111418] dark:text-gray-200 text-sm font-medium hover:text-primary transition-colors" href="#projects">Projects</a>
+<a class="text-[#111418] dark:text-gray-200 text-sm font-medium hover:text-primary transition-colors" href="#contact">Contact</a>
+</div>
+</nav>
+<div class="md:hidden text-[#111418] dark:text-white">
+<span id="mobileMenuBtn" class="material-symbols-outlined cursor-pointer">menu</span>
+</div>
+</div>
+</div>
+</div>
+</header>
+<section class="relative flex flex-col justify-center bg-white dark:bg-[#111418] py-12 md:py-20" id="home">
+<div class="px-5 md:px-10 lg:px-40 flex flex-1 justify-center">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+<div class="@container">
+<div class="flex flex-col gap-8 md:gap-12 px-4 py-6 md:flex-row items-center">
+<div class="flex flex-col gap-6 md:w-1/2 order-1 md:order-1">
+<div class="flex flex-col gap-3 text-left">
+<h1 class="text-[#111418] dark:text-white text-4xl md:text-5xl lg:text-6xl font-black leading-tight tracking-[-0.033em]">
+                                IT Student | AXI &amp; AOI Specialist | Aspiring Entrepreneur
+                            </h1>
+<h2 class="text-[#617589] dark:text-gray-400 text-base md:text-lg font-normal leading-relaxed">
+                                B.Tech IT background with specialized experience at Nokia Networks. Bridging the gap between academic theory and industrial quality assurance.
+                            </h2>
+</div>
+<div class="flex flex-wrap gap-4 pt-2">
+<button id="viewResumeBtn" class="flex min-w-[120px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-primary hover:bg-blue-600 transition-colors text-white text-base font-bold leading-normal tracking-[0.015em] shadow-md hover:shadow-lg">
+<span class="truncate">View Resume</span>
+</button>
+<button id="contactMeBtn" class="flex min-w-[120px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-transparent border border-[#dce0e5] dark:border-gray-600 text-[#111418] dark:text-white hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors text-base font-bold leading-normal tracking-[0.015em]">
+<span class="truncate">Contact Me</span>
+</button>
+</div>
+</div>
+<div class="w-full md:w-1/2 flex justify-center order-2 md:order-2 py-6 md:py-0">
+<div class="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 bg-center bg-no-repeat bg-cover rounded-full shadow-2xl border-8 border-white dark:border-gray-700/50" data-alt="Vikram S Profile Photo" style='background-image: url("STUDENT_P.jpg");'>
+<div class="absolute inset-0 rounded-full border border-black/5 dark:border-white/10"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-12 md:py-16 bg-background-light dark:bg-background-dark" id="about">
+<div class="px-5 md:px-10 lg:px-40 flex flex-1 justify-center">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1 px-4">
+<h2 class="text-[#111418] dark:text-white text-3xl font-bold leading-tight tracking-[-0.015em] pb-8">About Me</h2>
+<div class="bg-white dark:bg-[#1e293b] p-8 md:p-10 rounded-xl shadow-sm border border-[#e5e7eb] dark:border-gray-700">
+<div class="flex flex-col gap-4">
+<h3 class="text-[#111418] dark:text-white text-2xl font-bold">My Journey</h3>
+<p class="text-[#617589] dark:text-gray-300 text-lg leading-relaxed">
+                        Transitioning from a Diploma in CSE to B.Tech IT, I combine academic rigor with practical industry experience. My time at Nokia Networks &amp; Solutions has honed my skills in defect analysis and quality assurance, specifically in AXI (Automated X-ray Inspection) and AOI (Automated Optical Inspection).
+                    </p>
+<p class="text-[#617589] dark:text-gray-300 text-lg leading-relaxed">
+                        Beyond the technical realm, I am driven by an entrepreneurial spirit, constantly seeking problems to solve through technology and innovation.
+                    </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-12 md:py-16 bg-white dark:bg-[#111418]" id="skills">
+<div class="px-5 md:px-10 lg:px-40 flex flex-1 justify-center">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1 px-4">
+<h2 class="text-[#111418] dark:text-white text-3xl font-bold leading-tight tracking-[-0.015em] pb-8">Technical Skills</h2>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+<div class="flex flex-col items-center justify-center p-6 bg-background-light dark:bg-[#1e293b] rounded-lg text-center hover:shadow-md transition-shadow group cursor-default">
+<div class="w-12 h-12 flex items-center justify-center rounded-full bg-primary/10 text-primary mb-4 group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined">center_focus_strong</span>
+</div>
+<h3 class="font-bold text-[#111418] dark:text-white mb-1">AXI &amp; AOI</h3>
+<p class="text-xs text-gray-500 dark:text-gray-400">Quality Assurance</p>
+</div>
+<div class="flex flex-col items-center justify-center p-6 bg-background-light dark:bg-[#1e293b] rounded-lg text-center hover:shadow-md transition-shadow group cursor-default">
+<div class="w-12 h-12 flex items-center justify-center rounded-full bg-primary/10 text-primary mb-4 group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined">terminal</span>
+</div>
+<h3 class="font-bold text-[#111418] dark:text-white mb-1">Python</h3>
+<p class="text-xs text-gray-500 dark:text-gray-400">Scripting &amp; Auto</p>
+</div>
+<div class="flex flex-col items-center justify-center p-6 bg-background-light dark:bg-[#1e293b] rounded-lg text-center hover:shadow-md transition-shadow group cursor-default">
+<div class="w-12 h-12 flex items-center justify-center rounded-full bg-primary/10 text-primary mb-4 group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined">coffee</span>
+</div>
+<h3 class="font-bold text-[#111418] dark:text-white mb-1">Java</h3>
+<p class="text-xs text-gray-500 dark:text-gray-400">OOP &amp; Backend</p>
+</div>
+<div class="flex flex-col items-center justify-center p-6 bg-background-light dark:bg-[#1e293b] rounded-lg text-center hover:shadow-md transition-shadow group cursor-default">
+<div class="w-12 h-12 flex items-center justify-center rounded-full bg-primary/10 text-primary mb-4 group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined">html</span>
+</div>
+<h3 class="font-bold text-[#111418] dark:text-white mb-1">Web Dev</h3>
+<p class="text-xs text-gray-500 dark:text-gray-400">HTML/CSS/JS</p>
+</div>
+<div class="flex flex-col items-center justify-center p-6 bg-background-light dark:bg-[#1e293b] rounded-lg text-center hover:shadow-md transition-shadow group cursor-default">
+<div class="w-12 h-12 flex items-center justify-center rounded-full bg-primary/10 text-primary mb-4 group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined">bug_report</span>
+</div>
+<h3 class="font-bold text-[#111418] dark:text-white mb-1">Defect Analysis</h3>
+<p class="text-xs text-gray-500 dark:text-gray-400">Root Cause Finding</p>
+</div>
+<div class="flex flex-col items-center justify-center p-6 bg-background-light dark:bg-[#1e293b] rounded-lg text-center hover:shadow-md transition-shadow group cursor-default">
+<div class="w-12 h-12 flex items-center justify-center rounded-full bg-primary/10 text-primary mb-4 group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined">groups</span>
+</div>
+<h3 class="font-bold text-[#111418] dark:text-white mb-1">Teamwork</h3>
+<p class="text-xs text-gray-500 dark:text-gray-400">Collaboration</p>
+</div>
+<div class="flex flex-col items-center justify-center p-6 bg-background-light dark:bg-[#1e293b] rounded-lg text-center hover:shadow-md transition-shadow group cursor-default">
+<div class="w-12 h-12 flex items-center justify-center rounded-full bg-primary/10 text-primary mb-4 group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined">campaign</span>
+</div>
+<h3 class="font-bold text-[#111418] dark:text-white mb-1">Entrepreneurship</h3>
+<p class="text-xs text-gray-500 dark:text-gray-400">Innovation</p>
+</div>
+<div class="flex flex-col items-center justify-center p-6 bg-background-light dark:bg-[#1e293b] rounded-lg text-center hover:shadow-md transition-shadow group cursor-default">
+<div class="w-12 h-12 flex items-center justify-center rounded-full bg-primary/10 text-primary mb-4 group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined">data_object</span>
+</div>
+<h3 class="font-bold text-[#111418] dark:text-white mb-1">IoT</h3>
+<p class="text-xs text-gray-500 dark:text-gray-400">Embedded Systems</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-12 md:py-16 bg-background-light dark:bg-background-dark" id="experience">
+<div class="px-5 md:px-10 lg:px-40 flex flex-1 justify-center">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1 px-4">
+<h2 class="text-[#111418] dark:text-white text-3xl font-bold leading-tight tracking-[-0.015em] pb-8">Experience</h2>
+<div class="relative pl-8 border-l-2 border-gray-200 dark:border-gray-700">
+<div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-primary border-4 border-white dark:border-background-dark"></div>
+<div class="flex flex-col gap-2 mb-10">
+<div class="flex flex-col sm:flex-row sm:justify-between sm:items-baseline">
+<h3 class="text-xl font-bold text-[#111418] dark:text-white">AXI &amp; AOI Specialist</h3>
+<span class="text-sm font-medium text-primary bg-primary/10 px-3 py-1 rounded-full w-fit mt-2 sm:mt-0">Current Role</span>
+</div>
+<h4 class="text-lg font-medium text-[#617589] dark:text-gray-300">Nokia Networks &amp; Solutions</h4>
+<p class="text-sm text-gray-400 dark:text-gray-500 mb-2">Oragadam, Chennai</p>
+<div class="mt-4 bg-white dark:bg-[#1e293b] p-6 rounded-lg shadow-sm">
+<ul class="list-disc pl-5 space-y-2 text-[#617589] dark:text-gray-300">
+<li>Specialized in Automated X-ray Inspection (AXI) and Automated Optical Inspection (AOI) processes.</li>
+<li>Conducting in-depth defect analysis to improve manufacturing quality and reduce error rates.</li>
+<li>Collaborating with engineering teams to bridge the gap between design theory and production reality.</li>
+<li>Ensuring compliance with rigorous industrial quality assurance standards.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-12 md:py-16 bg-white dark:bg-[#111418]" id="projects">
+<div class="px-5 md:px-10 lg:px-40 flex flex-1 justify-center">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1 px-4">
+<h2 class="text-[#111418] dark:text-white text-3xl font-bold leading-tight tracking-[-0.015em] pb-8">Featured Projects</h2>
+<div class="flex flex-col gap-8">
+<div class="flex flex-col md:flex-row bg-background-light dark:bg-[#1e293b] rounded-xl overflow-hidden shadow-sm border border-[#e5e7eb] dark:border-gray-700 ring-1 ring-primary/20">
+<div class="w-full md:w-2/5 h-64 md:h-auto bg-gradient-to-br from-[#137fec] to-[#0d5fb0] flex items-center justify-center p-8">
+<span class="material-symbols-outlined text-white text-[80px] opacity-80">volunteer_activism</span>
+</div>
+<div class="w-full md:w-3/5 p-8 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-start mb-2 flex-wrap gap-2">
+<h3 class="text-2xl font-bold text-[#111418] dark:text-white">DONATO Platform</h3>
+<div class="flex items-center gap-2">
+<span class="flex items-center gap-1.5 text-xs font-bold bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 px-3 py-1 rounded-full border border-green-200 dark:border-green-800 uppercase tracking-wide">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+</span>
+                                        Current
+                                    </span>
+</div>
+</div>
+<p class="text-sm font-semibold text-primary mb-3">Innovative Design Lab – I | Academic Project</p>
+<p class="text-[#617589] dark:text-gray-300 mb-6">
+                                A transparent donation platform designed to connect donors with verified NGOs. It ensures accountability through real-time tracking, automated reporting, and direct alignment with UN SDG 17 partnerships.
+                            </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-y-3 gap-x-4 mb-6">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">verified_user</span>
+<span class="text-sm text-gray-600 dark:text-gray-300 font-medium">Verified NGOs</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">timeline</span>
+<span class="text-sm text-gray-600 dark:text-gray-300 font-medium">Real-time Tracking</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">description</span>
+<span class="text-sm text-gray-600 dark:text-gray-300 font-medium">Automated Reports</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">public</span>
+<span class="text-sm text-gray-600 dark:text-gray-300 font-medium">SDG 17 Aligned</span>
+</div>
+</div>
+</div>
+<button id="projectDetails1" class="self-start text-primary font-bold hover:underline flex items-center gap-1">
+                            View Project Details <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+<div class="flex flex-col md:flex-row bg-background-light dark:bg-[#1e293b] rounded-xl overflow-hidden shadow-sm border border-[#e5e7eb] dark:border-gray-700">
+<div class="w-full md:w-2/5 h-64 md:h-auto bg-cover bg-center" data-alt="Smart trolley prototype with electronics and sensors" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCbqi6D_XI_oIcadr9oRyb4pDFzeI30u3uHiDZifAahedHm12SN-hJEVtlqlqQOPCyUO6ebkaFKWohOR-SZr0WSXgvVqzrX9a3RkQrQJolKHQkBOaDr5VAHYrL02c7oCSr6f7fDvDQSdPqRdZSaVXyd1wGUttAOEtXNvqOmD-PqOnZjf0MnhkFQ1osaW_VTGiuBZt0gsEDswbDc3wfRSUH6BJlPakiFbXhvmBrbul_BVizAzbs8O0HWcj9I_0t5WMX4ybY40-i4pFQ");'>
+<div class="w-full h-full bg-black/10"></div>
+</div>
+<div class="w-full md:w-3/5 p-8 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-start mb-2">
+<h3 class="text-2xl font-bold text-[#111418] dark:text-white">Smart Trolley Project</h3>
+<div class="flex gap-2">
+<span class="text-xs font-bold bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-300 px-2 py-1 rounded border border-gray-200 dark:border-gray-600">IoT</span>
+<span class="text-xs font-bold bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-300 px-2 py-1 rounded border border-gray-200 dark:border-gray-600">Hardware</span>
+</div>
+</div>
+<p class="text-[#617589] dark:text-gray-300 mb-6">
+                                An innovative solution designed to streamline the retail shopping experience. This automated trolley system calculates the total bill in real-time as items are dropped into the cart, reducing checkout times significantly.
+                            </p>
+<div class="grid grid-cols-2 gap-4 mb-6">
+<div>
+<span class="block text-2xl font-bold text-primary">30%</span>
+<span class="text-xs text-gray-500 dark:text-gray-400">Faster Checkout</span>
+</div>
+<div>
+<span class="block text-2xl font-bold text-primary">Zero</span>
+<span class="text-xs text-gray-500 dark:text-gray-400">Queue Time</span>
+</div>
+</div>
+</div>
+<button id="projectDetails2" class="self-start text-primary font-bold hover:underline flex items-center gap-1">
+                            View Project Details <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-12 md:py-16 bg-background-light dark:bg-background-dark">
+<div class="px-5 md:px-10 lg:px-40 flex flex-1 justify-center">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1 px-4">
+<h2 class="text-[#111418] dark:text-white text-3xl font-bold leading-tight tracking-[-0.015em] pb-8">Education</h2>
+<div class="flex flex-col gap-4">
+<div class="flex flex-col sm:flex-row justify-between items-start sm:items-center p-6 bg-white dark:bg-[#1e293b] rounded-lg border border-[#e5e7eb] dark:border-gray-700">
+<div class="flex gap-4 items-center">
+<div class="w-12 h-12 rounded-lg bg-blue-50 dark:bg-blue-900/20 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">school</span>
+</div>
+<div>
+<h3 class="font-bold text-lg text-[#111418] dark:text-white">Bachelor of Technology (IT)</h3>
+<p class="text-sm text-gray-500 dark:text-gray-400">Current</p>
+</div>
+</div>
+<div class="mt-2 sm:mt-0 pl-16 sm:pl-0">
+<span class="text-sm font-medium text-gray-600 dark:text-gray-300">Combining Theory &amp; Practice</span>
+</div>
+</div>
+<div class="flex flex-col sm:flex-row justify-between items-start sm:items-center p-6 bg-white dark:bg-[#1e293b] rounded-lg border border-[#e5e7eb] dark:border-gray-700">
+<div class="flex gap-4 items-center">
+<div class="w-12 h-12 rounded-lg bg-gray-50 dark:bg-gray-800 flex items-center justify-center text-gray-500">
+<span class="material-symbols-outlined">history_edu</span>
+</div>
+<div>
+<h3 class="font-bold text-lg text-[#111418] dark:text-white">Diploma in CSE</h3>
+<p class="text-sm text-gray-500 dark:text-gray-400">Computer Science Engineering</p>
+</div>
+</div>
+<div class="mt-2 sm:mt-0 pl-16 sm:pl-0">
+<span class="text-sm font-medium text-gray-600 dark:text-gray-300">Foundational Tech Skills</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-12 md:py-16 bg-white dark:bg-[#111418] border-t border-[#f0f2f4] dark:border-gray-800" id="contact">
+<div class="px-5 md:px-10 lg:px-40 flex flex-1 justify-center">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1 px-4">
+<div class="flex flex-col md:flex-row justify-between gap-12">
+<div class="flex flex-col gap-6 md:w-1/2">
+<h2 class="text-[#111418] dark:text-white text-3xl font-bold leading-tight tracking-[-0.015em]">Let's Connect</h2>
+<p class="text-[#617589] dark:text-gray-300 text-lg">
+                        I'm always open to discussing new projects, creative ideas or opportunities to be part of your visions.
+                    </p>
+<div class="flex flex-col gap-4 mt-4">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">mail</span>
+</div>
+<span class="text-[#111418] dark:text-white font-medium">s.vikram2k6@gmail.com</span>
+</div>
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">call</span>
+</div>
+<span class="text-[#111418] dark:text-white font-medium">+91 8072129070</span>
+</div>
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">location_on</span>
+</div>
+<span class="text-[#111418] dark:text-white font-medium">Chennai, India</span>
+</div>
+</div>
+</div>
+<div class="md:w-1/2 bg-background-light dark:bg-[#1e293b] p-8 rounded-xl">
+<form class="flex flex-col gap-4">
+<div class="flex flex-col gap-1">
+<label class="text-sm font-bold text-[#111418] dark:text-white">Name</label>
+<input class="w-full rounded-lg border border-[#dce0e5] dark:border-gray-600 bg-white dark:bg-[#101922] p-3 text-sm focus:border-primary focus:ring-1 focus:ring-primary outline-none" placeholder="Your Name" type="text"/>
+</div>
+<div class="flex flex-col gap-1">
+<label class="text-sm font-bold text-[#111418] dark:text-white">Email</label>
+<input class="w-full rounded-lg border border-[#dce0e5] dark:border-gray-600 bg-white dark:bg-[#101922] p-3 text-sm focus:border-primary focus:ring-1 focus:ring-primary outline-none" placeholder="your@email.com" type="email"/>
+</div>
+<div class="flex flex-col gap-1">
+<label class="text-sm font-bold text-[#111418] dark:text-white">Message</label>
+<textarea class="w-full rounded-lg border border-[#dce0e5] dark:border-gray-600 bg-white dark:bg-[#101922] p-3 text-sm focus:border-primary focus:ring-1 focus:ring-primary outline-none h-32 resize-none" placeholder="How can I help you?"></textarea>
+</div>
+<button id="sendMessageBtn" class="mt-2 bg-primary text-white font-bold py-3 rounded-lg hover:bg-blue-600 transition-colors" type="button">Send Message</button>
+</form>
+</div>
+</div>
+<div class="border-t border-[#f0f2f4] dark:border-gray-800 mt-16 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-sm text-gray-500 dark:text-gray-400">© 2023 Vikram S. All rights reserved.</p>
+<div class="flex gap-6">
+<a class="text-gray-500 hover:text-primary transition-colors" href="#">LinkedIn</a>
+<a class="text-gray-500 hover:text-primary transition-colors" href="#">GitHub</a>
+<a class="text-gray-500 hover:text-primary transition-colors" href="#">Twitter</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script>
+    // Initialize EmailJS
+    emailjs.init('pFjgQMBZI05QNTs5e');
+</script>
+<script>
+// View Resume Button
+document.getElementById('viewResumeBtn').addEventListener('click', function() {
+    // You can set your resume URL here
+    const resumeURL = 'https://drive.google.com/your-resume-link'; // Replace with your actual resume link
+    window.open(resumeURL, '_blank');
+});
+
+// Contact Me Button - Scroll to contact form
+document.getElementById('contactMeBtn').addEventListener('click', function() {
+    document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+});
+
+// Mobile Menu Toggle
+document.getElementById('mobileMenuBtn').addEventListener('click', function() {
+    const nav = document.querySelector('nav');
+    nav.classList.toggle('hidden');
+});
+
+// Navigation Links - Smooth Scroll
+document.querySelectorAll('nav a').forEach(link => {
+    link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        if (targetId.startsWith('#')) {
+            const targetElement = document.querySelector(targetId);
+            if (targetElement) {
+                targetElement.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    });
+});
+
+// Project Details Buttons
+document.getElementById('projectDetails1').addEventListener('click', function() {
+    alert('DONATO Platform - Transparent Donation Platform\n\nFeatures:\n• Verified NGOs\n• Real-time Tracking\n• Automated Reports\n• SDG 17 Aligned\n\nThis is an academic project focused on ensuring accountability in charitable donations.');
+});
+
+document.getElementById('projectDetails2').addEventListener('click', function() {
+    alert('Smart Trolley Project - IoT & Hardware\n\nKey Features:\n• Real-time bill calculation\n• 30% faster checkout\n• Zero queue time\n• Automated checkout system\n\nInnovative solution for retail shopping experience.');
+});
+
+// Contact Form Submission
+document.getElementById('sendMessageBtn').addEventListener('click', function(e) {
+    e.preventDefault();
+    
+    const nameInput = document.querySelector('input[placeholder="Your Name"]');
+    const emailInput = document.querySelector('input[placeholder="your@email.com"]');
+    const messageInput = document.querySelector('textarea[placeholder="How can I help you?"]');
+    
+    const name = nameInput.value.trim();
+    const email = emailInput.value.trim();
+    const message = messageInput.value.trim();
+    
+    // Validation
+    if (!name || !email || !message) {
+        alert('Please fill in all fields');
+        return;
+    }
+    
+    // Email validation
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+        alert('Please enter a valid email address');
+        return;
+    }
+    
+    // Send email using EmailJS
+    const templateParams = {
+        name: name,
+        from_email: email,
+        from_name: name,
+        title: message,
+        to_email: 's.vikram2k6@gmail.com'
+    };
+    
+    emailjs.send('service_edhj2ln', 'template_623x1md', templateParams)
+        .then(function(response) {
+            console.log('Email sent successfully:', response);
+            alert(`Thank you, ${name}! Your message has been sent successfully.\n\nI'll get back to you soon.`);
+            
+            // Clear form
+            nameInput.value = '';
+            emailInput.value = '';
+            messageInput.value = '';
+        })
+        .catch(function(error) {
+            console.error('Failed to send email:', error);
+            console.log('Error details:', JSON.stringify(error));
+            alert('Sorry, there was an error sending your message. Please try again later.');
+        });
+});
+
+// Social Media Links
+document.querySelectorAll('a[href="#"]').forEach(link => {
+    if (link.textContent.includes('LinkedIn')) {
+        link.href = 'https://www.linkedin.com/in/vikram-s-666b01385/';
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            window.open(this.href, '_blank');
+        });
+    } else if (link.textContent.includes('GitHub')) {
+        link.href = 'https://github.com/vikrxm10';
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            window.open(this.href, '_blank');
+        });
+    } else if (link.textContent.includes('Twitter')) {
+        link.href = 'https://x.com/vikram2k6';
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            window.open(this.href, '_blank');
+        });
+    }
+});
+
+// Dark Mode Toggle (optional enhancement)
+function initDarkMode() {
+    const htmlElement = document.documentElement;
+    const isDark = htmlElement.classList.contains('dark');
+    // You can add a dark mode toggle button if needed
+}
+
+// Initialize on page load
+document.addEventListener('DOMContentLoaded', function() {
+    initDarkMode();
+});
+</script>
+
+</body></html>
