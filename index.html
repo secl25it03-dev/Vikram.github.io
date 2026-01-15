@@ -457,13 +457,13 @@ document.getElementById('sendMessageBtn').addEventListener('click', function(e) 
     // Send email using EmailJS
     const templateParams = {
         name: name,
-        from_email: email,
-        from_name: name,
-        title: message,
-        to_email: 's.vikram2k6@gmail.com'
+        email: email,
+        message: message,
+        title: 'New Contact Form Message',
+        time: new Date().toLocaleString()
     };
     
-    emailjs.send('service_edhj2ln', 'template_623x1md', templateParams)
+    emailjs.send('service_fi2enff', 'template_gfpq7lg', templateParams)
         .then(function(response) {
             console.log('Email sent successfully:', response);
             alert(`Thank you, ${name}! Your message has been sent successfully.\n\nI'll get back to you soon.`);
