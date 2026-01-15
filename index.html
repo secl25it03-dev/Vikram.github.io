@@ -64,13 +64,13 @@
 <div class="flex flex-col gap-6 md:w-1/2 order-1 md:order-1">
 <div class="flex flex-col gap-3 text-left">
 <h1 class="text-[#111418] dark:text-white text-4xl md:text-5xl lg:text-6xl font-black leading-tight tracking-[-0.033em]">
-                                IT Student | AXI &amp; AOI Specialist | Aspiring Entrepreneur
+                                VIKRAM S
                             </h1>
 <h2 class="text-[#617589] dark:text-gray-400 text-base md:text-lg font-normal leading-relaxed">
                                 B.Tech IT background with specialized experience at Nokia Networks. Bridging the gap between academic theory and industrial quality assurance.
                             </h2>
 </div>
-<div class="flex flex-wrap gap-4 pt-2">
+<div class="flex flex-wrap gap-4x pt-2">
 <button id="viewResumeBtn" class="flex min-w-[120px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-primary hover:bg-blue-600 transition-colors text-white text-base font-bold leading-normal tracking-[0.015em] shadow-md hover:shadow-lg">
 <span class="truncate">View Resume</span>
 </button>
@@ -457,13 +457,13 @@ document.getElementById('sendMessageBtn').addEventListener('click', function(e) 
     // Send email using EmailJS
     const templateParams = {
         name: name,
-        email: email,
-        message: message,
-        title: 'New Contact Form Message',
-        time: new Date().toLocaleString()
+        from_email: email,
+        from_name: name,
+        title: message,
+        to_email: 's.vikram2k6@gmail.com'
     };
     
-    emailjs.send('service_fi2enff', 'template_gfpq7lg', templateParams)
+    emailjs.send('service_fi2enff', 'template_0nm12fx', templateParams)
         .then(function(response) {
             console.log('Email sent successfully:', response);
             alert(`Thank you, ${name}! Your message has been sent successfully.\n\nI'll get back to you soon.`);
